@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+# Jupyter Notebook
+.ipynb_checkpoints
+# Data files (ไฟล์ใหญ่ไม่ควร push)
+*.csv
+*.xlsx
+*.zip
+data/raw/
+data/processed/
+# Models (ไฟล์ model ขนาดใหญ่)
+*.h5
+*.pkl
+*.joblib
+models/*.pkl
+# Environment
+.env
+.venv
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+# OS
+.DS_Store
+Thumbs.db
+# Credentials
+config.json
+credentials.json
+*.key
